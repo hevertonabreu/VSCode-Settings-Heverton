@@ -2,9 +2,11 @@
     // Define o tema do VSCode
     "workbench.colorTheme": "Dracula",
   
-    // Configura tamanho e família da fonte
+    // Configura tamanho e altura da linha
     "editor.fontSize": 18,
     "editor.lineHeight": 24,
+
+    //Configura a família da fonte e aciona o fontLigatures
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
   
@@ -20,29 +22,67 @@
   
     // Define o tema dos ícones na sidebar
     "workbench.iconTheme": "material-icon-theme",
+
+    // Abre sempre um arquivo em branco
     "workbench.startupEditor": "newUntitledFile",
+
+    // Define a quantidade de espaços do TAB
     "editor.tabSize": 2,
+
+    // Define o nível de Zoom da janela
     "window.zoomLevel": 1,
+
+    // Desativa ignorar recomendações de extensões
     "extensions.ignoreRecommendations": false,
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx",
-        "nunjucks": "html"
-    },
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "nunjucks": "html"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "never",
+    
+    // Desativar um conjunto de commits recentes
     "gitlens.codeLens.recentChange.enabled": false,
+
+    // Desativa para não mostrar o número de autores do arquivo ou bloco de código.
     "gitlens.codeLens.authors.enabled": false,
+
+    // Desativa a mensagem de postagens do código
     "gitlens.codeLens.enabled":false,
-    "breadcrumbs.enabled":true,
+        
+    // Habilita smart commit do git
     "git.enableSmartCommit": true,
+
+    // Desabilita Integração do Pretiter com o ESLint.
     "editor.parameterHints.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "explorer.confirmDragAndDrop": false,
+    
+    // Habilita integração da extensão local.
     "liveshare.featureSet": "insiders",
+    
+    // Desabilita a confirmação de exclusão do explorer ao lado.
     "explorer.confirmDelete": false,
-    "typescript.tsserver.log": "verbose",
+
+    // Se definido como true, a extensão usará o ícone JSON oficial.
     "vsicons.presets.jsonOfficial": true,
   }
+  /*
+    Extensões:
+    Arduino (estudado)
+    Auto Rename Tag
+    C/C++
+    C/C++ Extension Pack
+    Code Runner
+    CodeSnap
+    Color Highlight
+    Dracula Official
+    EsLint
+    GitLens - Git supercharged
+    IntelliCode
+    Jupyter
+    Jupyter Cell Tags
+    Jupyter Keymap
+    Jupyter Notebook Renderers
+    Jupyter Slide Show
+    Live Server
+    Live Share
+    Material Icon Theme
+    Portuguese (Brazil) Language Pack for Visual Studio
+    Prettier - Code Formatter
+    Pylance
+    Python
+    Serial Monitor
+  */
