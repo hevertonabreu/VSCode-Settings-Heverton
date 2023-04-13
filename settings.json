@@ -11,27 +11,7 @@
     // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
     "editor.rulers": [80, 120],
     "editor.formatOnSave": false,
-  
-    "eslint.autoFixOnSave": true,
-    "eslint.validate":[
-        {
-            "language": "javascript",
-            "autoFix": true
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true
-        },
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        }
-    ],
-  
+      
     // Aplica um sinal visual na esquerda da linha selecionada
     "editor.renderLineHighlight": "gutter",
   
@@ -60,9 +40,9 @@
     "git.enableSmartCommit": true,
     "editor.parameterHints.enabled": false,
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "terminal.integrated.shell.osx": "/bin/zsh",
     "explorer.confirmDragAndDrop": false,
     "liveshare.featureSet": "insiders",
     "explorer.confirmDelete": false,
     "typescript.tsserver.log": "verbose",
+    "vsicons.presets.jsonOfficial": true,
   }
